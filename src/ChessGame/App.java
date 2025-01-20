@@ -5,8 +5,8 @@ package ChessGame;
 public class App {
 
 	public static final void jeu(Joueur[] args) {
-		Joueur j1 = new Joueur("Joueur n°1", Colors.BLANC, Position.HAUT);
-		Joueur j2 = new Joueur("Joueur n°2", Colors.NOIR, Position.BAS);
+		Joueur j1 = new Joueur("Joueur n°1", Colors.BLANC, Position.BAS);
+		Joueur j2 = new Joueur("Joueur n°2", Colors.NOIR, Position.HAUT);
 		args = new Joueur[2];
 		args[0] = j1;
 		args[1] = j2;
